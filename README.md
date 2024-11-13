@@ -5,6 +5,8 @@
 
 This project is based on uart_echo sample project of the esp idf sdk.
 
+Note: I've done this task using UART0 which is connected to serial terminal of ESP32. A working demo video is [here](./video/Uart_bitrate.mp4). You can change the UART port in the menuconfig thats not a problem. For more instructions see below,
+
 ### Hardware Required
 
 The example can be run on any development board, that is based on the Espressif SoC. The board shall be connected to a computer with a single USB cable for flashing and monitoring. The external interface should have 3.3V outputs. You may

@@ -21,7 +21,6 @@ examined more closely for potential credit risk. Rajan, who was RBI governor for
 def do_something():
     
     count = 0
-
     no_of_bytes = 0
     time_elapsed = 0
 
@@ -36,7 +35,6 @@ def do_something():
         ser.write(bytes(write_data, 'utf-8'))
 
         read_data = ""
-
         no_of_bytes = 0
         time_elapsed = 0
 
@@ -66,7 +64,6 @@ def do_something():
 
         # wait for 2 sec.
         time.sleep(2)
-
 
 if __name__ == "__main__":
     do_something()
