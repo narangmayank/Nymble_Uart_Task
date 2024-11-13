@@ -60,3 +60,14 @@ idf.py -p PORT flash monitor
 (To exit the serial monitor, type ``Ctrl-]``.)
 
 See the Getting Started Guide for full steps to configure and use ESP-IDF to build projects.
+
+
+### Running PC Code
+
+From the root just hit the below command,
+
+```
+python script/main.py COM 2400
+```
+
+(To exit the python terminal, type ``Ctrl-C``.)

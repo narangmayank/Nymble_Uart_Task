@@ -68,10 +68,6 @@ namespace SPIFFS {
         {
             data_ptr[loop_var] = temp_c;
             loop_var++;
-
-            if(loop_var == (size - 1)) {
-                break;
-            }
         }
 
         data_ptr[loop_var] = '\0';
